@@ -20,7 +20,7 @@ bin/kafka-server-start.sh config/kraft/server.properties
 
 create a topic named news
 ```bash
-bin/kafka-topics.sh --create --topic news --bootstrap-server localhos
+bin/kafka-topics.sh --create --topic news --bootstrap-server localhost
 ```
 
 start a producer
