@@ -56,9 +56,15 @@ Once the setup is complete, you can run the Python scripts to interact with Kafk
 
 1. **Producer Script**  
    Run the producer script to send messages to a Kafka topic.
-
+   ```bash
+   python3 producer.py
+   ```
+   
 2. **Consumer Script**  
    Run the consumer script to consume messages from a Kafka topic.
+   ```bash
+   python3 consumer.py
+   ```
 
 *Ensure Kafka is running before executing the scripts.*
 
