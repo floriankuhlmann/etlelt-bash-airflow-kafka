@@ -2,16 +2,7 @@
 # ETL and Data Pipelines with Shell, Airflow, and Kafka
 
 This repository contains scripts and example DAGs related to the Coursera course "[ETL and Data Pipelines with Shell, Airflow, and Kafka](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/)." The course provides an introduction to two approaches for converting raw data into analytics-ready data: the ETL (Extract, Transform, Load) process and the ELT (Extract, Load, Transform) process. These processes are used in data warehouses, data marts, and data lakes, respectively, and involve transforming, loading, and storing data from source systems to destination systems.
-
-## Course Overview
-
-In this course, learners explore tools and techniques for building ETL and ELT data pipelines. Key concepts covered include:
-
-- Differences between ETL and ELT processes and their use cases
-- Methods and tools for extracting, transforming, and loading data
-- Data quality verification, monitoring of load failures, and recovery mechanisms
-- Building data pipelines with Apache Airflow
-- Creating streaming pipelines with Apache Kafka, covering brokers, topics, partitions, replications, producers, and consumers
+Go and check out, its definetyl worth spending some time on it if you want to dive deeper into the field of data engineering and preparing data for machine learning prpcess.
 
 ## Repository Structure
 
@@ -26,6 +17,8 @@ The repository is organized as follows:
 
   - **`example_dag.py`**: A sample DAG that can be used as a starting point for creating ETL workflows.
   - **`example_server_access_log_processing.py`**: Another sample DAG that may include tasks for processing server access logs.
+
+- **`kafka/''**: Contains some short code snippets for kafka, mostly python code for example admin, consumer und producers
 
 ## Getting Started
 
