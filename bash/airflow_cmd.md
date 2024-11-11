@@ -15,6 +15,11 @@ list all tasks in the DAG named example_bash_operator.
 airflow tasks list example_bash_operator
 ```
 
+If you don't find your DAG in the list, you can check for errors using the following command
+```bash
+airflow dags list-import-errors
+```
+
 unpause a DAG named tutorial
 ```bash
 airflow dags unpause tutorial
